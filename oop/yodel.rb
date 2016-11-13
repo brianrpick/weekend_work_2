@@ -9,6 +9,22 @@
 # constructor accordingly.
 
 class Yodel
+  def initialize(input_hash)
+    @segment = input_hash[:segment]
+    @count = input_hash[:count]
+  end
+
+  def segment
+    @segment
+  end
+  def count
+    @count
+  end
+  def articulate
+    @articulate = segment * count
+  end
+
+
 
 end
 
